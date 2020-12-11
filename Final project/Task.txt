@@ -1,0 +1,24 @@
+The task is to build a model to classify physical activity based on the accelerometer data. 
+
+The data itself and a paper that contains approaches to parse the data is in this folder.
+
+The classes of activities to classify is the names of the folder that contains the data.
+
+File AndroSensorSettings.xml contains all the settings about the physical device that was used for data gathering.
+
+The preferred result is the Jupiter notebook with the model and all supplementing code inside.
+
+Mandatory parts of the task that will be evaluated:
+1. Virtual environment. Alongside with task, you should send the instruction on how to set up the environment that I will be using to run your code. 
+The condition above is pretty generic because you can use venv, pipenv, anaconda, or any other virtual environment management tool that suits you. The only condition will be to provide me with the instructions to run it.
+In case you will choose the default venv option - do not forget to include requirements.txt or its equivalent.
+2. Data wrangling. You will need to read, organize, and put together a data frame suitable for training. Part of the process will be feature engineering. We will cover some parts of feature engineering in our third module. Ideas of exact features that are useful for this particular type of problem can be found in the provided paper or in any other data source that you consider trustworthy.
+3. Model building. You can try as many different approaches as you want here. The only condition that I will have here is to build some baseline model and then compare it to the other, with the improvement in resulting metrics.
+
+The three points above are the ones that will be evaluated, however, you can also add some optional parts to your final submission.
+1.Visualizations that will show you more info about the data itself and will help you to build a robust model. And also you can practice more your skills from the data visualization course ;)
+2. Suggestions on how the performance of the model that you've built can be improved and what issues needed to be resolved to improve the performance.
+
+Feel free to send me the questions about the task.
+
+Good luck!
