@@ -9,15 +9,17 @@ folder = ['idle/', 'running/', 'stairs/', 'walking/']
 
 all_files = glob.glob(path + "/*.csv")
 
-li = []
+print(all_files)
+#li = []
 
 # print(all_files)
 
-for filename in all_files:
-    df = pd.read_csv(filename, index_col=None, header=0)
-    li.append(df)
+#for filename in all_files:
+#    df = pd.read_csv(filename, index_col=None, header=0)
+#    li.append(df)
 
-frame = pd.concat(li, axis=0, ignore_index=True)
+#print(li)
+# frame = pd.concat(li, axis=0, ignore_index=True)
 
 #for i in folder:
  #   all_files = glob.glob(path + i + "*.csv")
