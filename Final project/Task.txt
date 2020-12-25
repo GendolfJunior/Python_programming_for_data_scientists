@@ -26,3 +26,6 @@ And also you can practice more your skills from the data visualization course ;)
 Feel free to send me the questions about the task.
 
 Good luck!
+
+-----------------
+Accelerometer creates 1 record every with interval 470 msec.
